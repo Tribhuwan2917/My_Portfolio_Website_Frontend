@@ -1,4 +1,4 @@
-This Project is basically about portfolio of me.  
+This Project is basically <br/> about portfolio of me.  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
