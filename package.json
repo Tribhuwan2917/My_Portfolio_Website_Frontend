@@ -1,5 +1,6 @@
 {
   "name": "second-app",
+  "homepage": "https://Tribhuwan2917.github.io/My_Portfolio_Website_Frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.0",
+    "gh-pages": "^6.0.0",
     "progress": "^2.0.3",
     "rc": "^1.2.8",
     "rc-progress": "^3.4.2",
@@ -28,6 +30,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
