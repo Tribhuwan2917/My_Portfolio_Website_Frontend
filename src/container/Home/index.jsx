@@ -12,7 +12,7 @@ import {Animate} from 'react-simple-animate'
      <div className="home_text-wrapper">
         <h1>
             Hi I am Tribhuwan Pal <br></br>
-              Software Developer
+          Java Full Stack  Developer
         </h1>
     </div>
     <Animate play
