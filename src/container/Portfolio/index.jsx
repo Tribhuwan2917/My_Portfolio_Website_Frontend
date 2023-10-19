@@ -8,13 +8,13 @@ import {Link} from 'react-router-dom';
 const portfolioData = [
    {
       id: 2,
-      name: 'PROJECTS',
+      name: 'DEVELOPMENT',
       image: image1,
-      link: ''
+      link: 'https://github.com/Tribhuwan2917?tab=repositories'
    },
    {
       id: 3,
-      name: 'DSA',
+      name: 'C.P.',
       image: image3,
       link: 'https://leetcode.com/Tribhuwan_1729/'
    }

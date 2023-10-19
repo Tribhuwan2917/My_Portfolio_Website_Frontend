@@ -26,7 +26,7 @@ const data = [
 
     },
     {
-        label: 'PORTFOLIO',
+        label: 'PROJECTS',
         to: '/portfolio'
 
     },

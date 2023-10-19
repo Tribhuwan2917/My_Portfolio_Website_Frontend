@@ -89,7 +89,7 @@ const Resume = () => {
                <div className="resume_myresume">
       <a
         href={resume}
-        download="Example-PDF-document"
+        download="tribhuwanresume"
         target="_blank"
         rel="noreferrer"
       >

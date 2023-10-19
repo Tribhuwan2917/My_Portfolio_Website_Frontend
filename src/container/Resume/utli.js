@@ -3,7 +3,7 @@ export const data={
         {
             title:"React developer",
             subTitle:"Infosys Ltd.",
-            description:"I have been as React Developer past 4 months"
+            description:"I have been as SoftwareDeveloper in past 11 months"
         },
         {
             title:"Java developer",
@@ -20,7 +20,7 @@ export const data={
     education:[
         {
             title:"B.Tech.",
-            subTitle:"Dr. Ram Manohar Lohia Avadh University AyodhyaU.P(222175) ,India",
+            subTitle:"Dr. Ram Manohar Lohia Avadh University Ayodhya U.P(222175) ,India",
             description: "Obtained marks: 79%",
             date:"  Date : 2018-2022"
 
