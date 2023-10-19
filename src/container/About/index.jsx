@@ -24,7 +24,7 @@ const persnalDetails = [
         value: "6307979643"
     }
 ]
-const jobSummary = "I have been working as System Engineer in Infosys from past 11 months. Hello I am new ++++++++++++++++";
+const jobSummary = "I have been working as System Engineer in Infosys from past 11 months.";
 const About = () => {
     return (<section id="about" className="about">
         <PageHeaderContent headerText="About Me" icon={<BsInfoCircleFill size={25}></BsInfoCircleFill>} ></PageHeaderContent>
