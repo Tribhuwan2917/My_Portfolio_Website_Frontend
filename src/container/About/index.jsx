@@ -6,6 +6,7 @@ import './styles.scss';
 import { FaJava, FaDatabase } from 'react-icons/fa';
 import { DiJavascript, DiReact } from 'react-icons/di';
 import { } from 'react-icons/'
+import { MyExperience } from "../../components/expUtil/ExpUtil";
 const persnalDetails = [
     {
         label: "Name :-",
@@ -24,7 +25,8 @@ const persnalDetails = [
         value: "6307979643"
     }
 ]
-const jobSummary = "I have been working as System Engineer in Infosys from past 11 months.";
+// console.log(startDate)
+const jobSummary = "I have been working as System Engineer in Infosys from past "+MyExperience.expNoOfYears+" Year "+MyExperience.expNoOfMonths+ " months.";
 const About = () => {
     return (<section id="about" className="about">
         <PageHeaderContent headerText="About Me" icon={<BsInfoCircleFill size={25}></BsInfoCircleFill>} ></PageHeaderContent>
@@ -32,7 +34,7 @@ const About = () => {
 
             <div className="about_content_personalWrapper"><Animate
                 >
-                <h3> Front End Developer</h3>
+                <h3> Full Stack Java Developer</h3>
                 <p className="jobsummary">{jobSummary} </p>
             </Animate>
                 <Animate>

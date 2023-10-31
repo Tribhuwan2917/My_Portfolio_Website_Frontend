@@ -26,7 +26,7 @@ import {Animate} from 'react-simple-animate'
       transform :'translatex(0px)'
     }}> 
     <div className="home_contact-me" >
-    <button onClick={handleNavigateToContactMePage}> Hire me</button>
+    <button style={{color:'white'}} onClick={handleNavigateToContactMePage}> Hire Me</button>
 </div>
     </Animate>
     

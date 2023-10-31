@@ -1,9 +1,11 @@
+import { MyExperience } from "../../components/expUtil/ExpUtil";
+
 export const data={
     experience:[
         {
-            title:"React developer",
+            title:"Full Stack Java developer",
             subTitle:"Infosys Ltd.",
-            description:"I have been as SoftwareDeveloper in past 11 months"
+            description:"I have been as System Engineer in Infosys past "+MyExperience.expNoOfYears+" Year "+MyExperience.expNoOfMonths+" months"
         },
         {
             title:"Java developer",
